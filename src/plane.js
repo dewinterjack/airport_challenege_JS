@@ -12,7 +12,7 @@ Plane.prototype.name = function(name){
 
 Plane.prototype.land = function(airport){
   this.landed = true;
-  this.airport.dock(this);
+  airport.dock(this);
 };
 
 Plane.prototype.takeOff = function(){
